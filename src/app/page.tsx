@@ -1,6 +1,7 @@
 'use client'
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import Instructors from "@/components/Instructors";
 import { TestimonialsCard } from "@/components/TestimonialsCard";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import Image from "next/image";
@@ -10,8 +11,9 @@ export default function Home() {
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.0]">
       <HeroSection />
       <FeaturedCourses />
-      <TestimonialsCard/>
-      <UpcomingWebinars/>
+      <TestimonialsCard />
+      <UpcomingWebinars />
+      <Instructors />
     </main>
   );
 }
